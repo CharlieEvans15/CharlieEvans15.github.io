@@ -711,3 +711,12 @@ footer {
     text-align: center;
     line-height: 1.6;
 }
+
+.about-section {
+    background-color: rgb(199, 120, 2);
+    color: black;
+    padding: 80px 20px;
+}
+.landingbg{
+    background-color: rgb(166, 129, 60);
+}
