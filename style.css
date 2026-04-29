@@ -170,7 +170,7 @@ nav ul li a:hover {
 }
 
 .location-info h3 {
-    color: #8B4513;
+    color: #a06c47;
     margin-bottom: 1rem;
 }
 
@@ -698,7 +698,7 @@ footer {
 }
 
 .menu-box {
-    background-color: #fd7d7d;  
+    background-color: #b46422d3;  
     border: 2px solid #5c3d2e;   
     padding: 15px;
     margin: 10px auto;
@@ -713,10 +713,74 @@ footer {
 }
 
 .about-section {
-    background-color: rgb(199, 120, 2);
+    background-color: rgb(129, 100, 57);
     color: black;
     padding: 80px 20px;
 }
 .landingbg{
     background-color: rgb(166, 129, 60);
+}
+
+.about-shop-image {
+    width: 20%;
+    max-width: 150px; 
+    height:auto;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.blog-content {
+    display: flex !important; 
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.blog-image {
+    width: 300px;
+    height: auto; 
+    display: block; 
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card { 
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px 0; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.blog2-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.blog2-post {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 800px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.event-stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+     padding: top 50px;
+    margin-top: 35px;
+
+}
+.events-menu {
+    background-color: #f0f0f0;
+    padding: 30px;
+    padding-top: 39px;
+    border-radius: 16px;
+    max-width: 800px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
